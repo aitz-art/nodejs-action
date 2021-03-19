@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-action",
+  "version": "1.0.0",
+  "description": "Example nodejs github action",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aitz-art/nodejs-action.git"
+  },
+  "keywords": [
+    "github",
+    "action"
+  ],
+  "author": "aitz-art",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aitz-art/nodejs-action/issues"
+  },
+  "homepage": "https://github.com/aitz-art/nodejs-action#readme"
+}
