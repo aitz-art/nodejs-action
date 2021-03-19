@@ -1,7 +1,7 @@
-name: CI to Docker Hub
+name: Nodejs CI
 on:
   push:
-    branches: [ main ]
+    branches: [ nodejs ]
 
 jobs:
 
@@ -30,7 +30,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: nightrobot13/simplewhale:latest
+          tags: nightrobot13/nodejs-test-api:latest
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
